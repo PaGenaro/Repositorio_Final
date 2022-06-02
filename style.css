@@ -1,0 +1,782 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
+* {
+    
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+  }
+
+
+
+  header {
+    display:flex;
+    background-color: #fff;
+    color: #fff;
+    width: 100%;
+    height: 100px; 
+    position: fixed;
+    z-index: 2;
+    
+  }
+
+  .menumob{
+    display: none;
+
+  }
+
+
+  .logo{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 8vw;
+    height: 5vh;
+    
+
+  }
+
+  
+
+  nav{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    height: 115px;
+    justify-content: space-evenly;
+    position: fixed;
+    
+    
+
+    
+  }
+
+  ul{
+    display: flex;
+    color: #9767A9;
+    list-style: none;
+    width: 60vw;
+    height: 5vh;
+    align-items: center;
+    margin-left: 10px;
+    justify-content: space-evenly;
+    cursor: pointer;
+    
+  }
+
+  li{
+    width: 12vw;
+    height: 2vh;
+    font-size: 18px;
+    
+  }
+
+
+input{
+  display: flex;
+  border-radius: 50px;
+  border-color: #9767A9;
+  width: 150px;
+  height: 30px;
+}
+
+input::placeholder{
+  text-align:center;
+  background-image: url(./img/Layer_3.png);
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  color: #9767A9
+  
+  
+}
+
+.redesocial{
+
+display: flex;
+}
+
+main{
+  width: 100%;
+}
+
+  .cabeludo{
+    background-image: url(./img/cabeludo1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 800px;
+    width: 100%;
+    
+    
+  }
+
+  .cabeludo h2{
+  font-family: 'Playfair Display', serif;
+  font-size: 70px;
+  color: #fff;
+  margin-left:5%;
+  margin-top: 350px;
+  width: 20vw;
+  height: 15vh;
+  
+  }
+
+  .cabeludo p{
+ font-family: 'Montserrat', sans-serif;
+ font-size: 30px;
+ color: #fff;
+ margin-left: 35%;
+ margin-top: 430px;
+ width: 30vw;
+ height: 10vh;
+ 
+ 
+  }
+
+  .cabeludinho{
+    display: none;
+  }
+
+  .primeiro_texto{
+    display: flex;
+    background-color:#9767A9;
+    width:100%;
+    height: 40vh;
+    justify-content: space-evenly;
+    }
+
+  .primeiro_texto  h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 35px;
+    width: 45vw;
+    height: 20vh;
+    margin-top: 50px;
+    
+  }
+
+  .primeiro_texto p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 25px;
+    width: 50vw;
+    height: 30vh;
+    margin-top: 50px;
+
+    
+  }
+
+  .primeiro_text{
+    display: none;
+  }
+
+  .galeria_fotos img{
+
+    width: 550px;
+    height: 450px;
+
+  }
+
+  .galeria_fotos p{
+    font-family: 'Montserrat', sans-serif;
+    text-align:left;
+    padding-left: 20px;
+    font-size: 18px;
+    color: #fff;
+    width: 400px;
+    margin-top: 15px;
+  }
+  
+    .galeria_fotos h2{
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #fff;
+    padding-left: 20px;
+  }
+
+  .img_princesa{
+
+    
+    margin-left: 50px;
+    margin-top: -100px;
+    display:relative;
+
+  }
+
+  .text_princesa{
+    width: 430px;
+    height: 400px;
+    margin-top: -120px;
+    margin-left: 5%;
+    background-color: #9767A9;
+    position:sticky;
+    
+  }
+
+
+
+  .gloria{
+
+    margin-top: -400px;
+    margin-left: 50%;
+    width: 500px;
+    height: 400px;
+     
+  }
+
+  .text_gloria{
+    
+    background-color: #9767A9;
+    width: 400px;
+    height: 390px;
+    margin-top: -150px;
+    margin-left: 15%;
+    position:relative;
+    
+  }
+
+  .vitao{
+
+
+    margin-left: 50px;
+    margin-top: 5%;
+    
+    }
+
+  .text_vitao{
+    background-color: #9767A9;
+    width: 450px;
+    height:270px;
+    margin-left: 5%;
+    margin-top:-100px;
+    position:relative;
+
+  }
+
+  .duquesa{
+
+    margin-left: 50%;
+    margin-top: -280px;
+  }
+
+  .text_duquesa{
+
+    background-color: #9767A9;
+    margin-left: 10%;
+    margin-top: -50px ;
+    width: 450px;
+    height:300px;
+    position:relative;
+
+
+  }
+
+  .maefilha{
+    margin-left: 50px;
+    margin-top: -250px ;
+
+  }
+
+  .text_maefilha{
+    background-color: #9767A9;
+    width: 450px;
+    height:350px;
+    margin-left: 5%;
+    margin-top:-100px;
+    position:relative;
+
+  }
+
+  .shampoozada{
+
+    margin-left: 50%;
+    margin-top: -400px ;
+
+  }
+
+  .text_shampoozada{
+    background-color: #9767A9;
+    width: 400px;
+    height:270px;
+    margin-left: 15%;
+    margin-top: -90px;
+    position:relative;
+
+  }
+
+  .cabelonatural{
+    margin-left: 50px;
+    margin-top: -180px ;
+
+  }
+
+  .text_cabelonatural{
+    background-color: #9767A9;
+    width: 450px;
+    height:250px;
+    margin-left: 5%;
+    margin-top:-140px;
+    position:relative;
+
+  }
+
+  .minhoca {
+    
+    width: 30vw;
+    height: 10vh;
+    display:relative;
+    
+  }
+  .minhoquina{
+    width: 30vw;
+    height: 20vh;
+    margin-left: 57%;
+    display:relative;
+    margin-top:-200px;
+    
+  }
+
+
+.gallery_fotos{display: none;}
+
+
+
+
+  .cabelos_artistas{
+    
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    margin-top: 100px;
+    
+    
+    
+  }
+
+  .bloco_galerry{
+    
+    flex-wrap: wrap;
+    display: flex;
+    width:100%;
+    height: 80vh;
+    justify-content: space-evenly;
+    
+
+  }
+    
+
+  .rei{
+    
+    width: 270px;
+    height: 500px; 
+    
+  }
+
+  .byonce{
+   width: 200px;
+   height: 259px;
+  }
+
+  .wacanda{
+    width: 200px;
+    height: 239px;
+  }
+
+  .mod{
+    width: 240px;
+    height: 503px;
+  }
+
+  .reportes{
+    width: 270px;
+    height: 237px;
+  }
+
+
+  .moca_black{
+    width: 200px;
+    height: 237px; 
+  }
+  .snoop{
+    width: 240px;
+    height: 237px;
+  }
+
+  .moda{
+    width: 280px;
+    height: 747px;
+  }
+
+  .sorriso_crianca{
+
+    width: 200px;
+    height: 210px;  
+
+  }
+
+  .moco_pensando{
+    width: 200px;
+    height: 532px;
+  }
+
+  .junto_rei_gloria{
+    display: inline-block;
+  }
+  .juntos{
+    display: inline-block;
+  }
+
+  .modelo_snoop{
+    display: inline-block;
+  }
+
+  footer{
+    font-size: 20px;
+    color: #fff;
+    background-color: #9767A9;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+  }
+
+  .footer_navegacao{
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    
+  }
+
+  .texto_footer{
+    display: block;
+
+  }
+
+  footer p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    width: 60vw;
+    text-align:left;
+    margin-left: 50px;
+    margin-top: 40px;
+    
+    
+  }
+
+  footer span{
+    font-size: 18px;
+    text-align:left;
+    margin-left: 50px;
+    
+    
+  }
+
+  .navegue{
+
+
+    width: 28vw;
+    height: 10vh;
+    margin-top: 20px;
+    display: flex;
+    
+    
+    
+   
+  }
+
+  .navegue p{ 
+    
+    
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 8vw;
+  
+  }
+
+    .navegue img{
+      
+      margin-top: 20px;
+    }
+
+  .anterior{
+    width: 40px;
+    height: 45px;
+    
+  }
+
+  .cima{
+    width: 40px;
+    height: 45px;
+  }
+
+  .proxima{
+    width: 40px;
+    height: 45px;
+
+  }
+
+  
+
+
+
+
+
+
+  @media only screen and (max-width: 600px) {
+
+  
+
+    header{
+
+      width: 190vw;
+      height: 22vh;
+      position: relative;
+      
+
+    }
+
+    .menumob{
+        display: flex;
+        width: 30vw;
+        height: 22vh;
+     }
+
+    .logo{
+        display: flex;
+        align-items: center;
+        margin-left:195px;
+        width: 45vw;
+        height: 15vh;
+    }
+     
+     
+    nav{display: none;}
+    .ul{display: none;}
+    .li{display: none;}
+
+    .redesocial{
+      display: none;
+    }
+
+    main{
+      width: 100vw;
+    }
+
+    .primeiro_texto{display: none;}
+
+   .cabeludo{display:none;}
+
+   .cabeludinho{
+    display: inline-block;
+    background-image: url(./img/cabeludo2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 190vw;
+    height: 90vh;
+    margin-top: -25px;
+    
+   }
+
+   .cabeludinho h2{
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+    font-size: 70px;
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 70vw;
+    height: 25vh;
+    
+    
+  }
+
+   .cabeludinho p{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 35px;
+    width: 130vw;
+    height: 10vh;
+    margin-top: 180px;
+    margin-left: 50px;
+
+    
+   }
+   
+   .primeiro_texto{
+     display: none;
+   }
+
+   .primeiro_text{
+    display:block;
+    background-color:#9767A9;
+    width: 190vw;
+    height: 100vh;
+    margin-top: -10px;
+    border: solid;
+    
+    }
+
+    .primeiro_text  h2{
+      color: #fff;
+      font-size: 45px;
+      width: 170vw;
+      height: 8vh;
+      margin-left: 50px;
+      margin-top: 68px;
+      
+      
+      }
+
+
+      .espremerp{
+        display:inline-block;
+        width: 150vw;
+        height: 100vh;
+        margin-top: 10px;
+        justify-content: end;
+        
+      }
+
+
+    .primeiro_text p{
+     color: #fff;
+     font-size: 25px;
+     width: 150vw;
+     height: 18vh;
+     margin-left: 55px;
+     margin-top: 70px;
+     display:block;
+     display:inline-block;
+
+      
+ }
+
+.galeria_fotos{display: none;}
+.minhoca{display:none;}
+.minhoquinha{display: none;}
+
+
+.gallery_fotos{
+  align-items: center;
+  display: block;
+  width: 190vw;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  
+
+}
+
+.gallery_fotos img{
+  width: 190vw;
+  margin-top: 40px;
+  background-size: cover;
+}
+
+
+.raizes_mf{
+  
+  
+  height:85vh;
+}
+
+.raizes_mf img{
+  width: 150vw;
+  margin-left: 90px;
+  
+
+}
+.text_ra{
+  color: #fff;
+  background-color: #9767A9;
+  width: 190vw;
+  height: 70vh;
+  margin-top: -130px;
+  position: relative;
+}
+
+
+.text_ra h2{
+  padding-left: 90px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;}
+.text_ra p{
+  
+  width: 150vw;
+  font-size: 24px ;
+  font-family:'Montserrat', sans-serif;
+  padding-left: 90px;
+}
+
+
+.sham{
+  margin-top: 150px;
+  
+  
+}
+
+
+.griza{
+  
+  
+  height:85vh;
+}
+
+.griza img{
+  width: 150vw;
+  margin-left: 90px;
+  
+
+}
+.text_griza{
+  
+  color: #fff;
+  width: 190vw;
+  height: 65vh;
+  margin-top: -130px;
+  position: relative;
+  background-color: #9767A9;
+}
+
+
+.griza h2{
+  padding-left: 90px;
+  font-size: 50px;
+  font-family: 'Playfair Display', serif;}
+.griza p{
+  
+  width: 150vw;
+  font-size: 30px ;
+  font-family:'Montserrat', sans-serif;
+  padding-left: 90px;
+}
+
+.cam_mob{
+
+  
+  margin-top: 80px;
+  height: 10vh;
+  width: 140vw;
+  margin-left: 100px;
+}
+
+.cam_mob img{
+  width: 100vw;
+  margin-left: 60px;
+}
+
+.cabelos_artistas{
+  display: none;
+}
+
+.bloco_galerry{display: none;}
+
+footer{display: none;}
+
+
+.footer_navegacao{
+  display: none;
+}
+
+  }
