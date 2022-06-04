@@ -517,7 +517,9 @@ main{
 
   }
 
-  
+  .ajeitando{
+    display: none;
+  }
 
 
 
@@ -612,7 +614,7 @@ main{
     display:block;
     background-color:#9767A9;
     width: 190vw;
-    height: 100vh;
+    height: 105vh;
     margin-top: -10px;
     border: solid;
     
@@ -654,8 +656,7 @@ main{
  }
 
 .galeria_fotos{display: none;}
-.minhoca{display:none;}
-.minhoquinha{display: none;}
+
 
 
 .gallery_fotos{
@@ -747,16 +748,20 @@ main{
 .griza p{
   
   width: 150vw;
-  font-size: 30px ;
+  font-size: 26px ;
   font-family:'Montserrat', sans-serif;
   padding-left: 90px;
 }
 
+
+.minhoca{display:none;}
+.minhoquinha{display:none;}
+
 .cam_mob{
 
   
-  margin-top: 80px;
-  height: 10vh;
+  margin-top: 220px;
+  height: 30vh;
   width: 140vw;
   margin-left: 100px;
 }
@@ -764,13 +769,111 @@ main{
 .cam_mob img{
   width: 100vw;
   margin-left: 60px;
+  margin-top: 75px;
 }
 
 .cabelos_artistas{
-  display: none;
+  display:flex;
+  width: 170vw;
+  height: 300vh;
+  border: solid green;
+  
+
 }
 
-.bloco_galerry{display: none;}
+.bloco_galerry{
+  width: 90vw;
+  height: 50vh;
+  display:flex;
+  align-items: center;
+  
+}
+
+
+.rei{
+
+  width: 70vw;
+  height: 60vh;
+  margin-top: 20px;
+  margin-left: 300px;
+  position: relative;
+}  
+
+.juntos{
+  border: solid red;
+  display: flex;
+  width: 100vw;
+  height: 60vh;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 590px;
+  margin-top: -885px;
+}
+
+.byonce{
+  
+  width: 30vw;
+  height: 20vh;
+}
+.wacanda{
+  
+  width: 30vw;
+  height: 20vh;
+
+}
+
+.moca_black{
+  
+  width: 80vw;
+}
+.reportes{
+  display: block;
+  width: 160vw;
+  position: relative;
+  margin-left: 300px;
+}
+
+.mod{
+  border: solid red;
+}
+
+.moda{display: none;}
+.moda_mob{
+  width: 30vw;
+  height: 20vh;
+  border: solid red;
+}
+
+.moco_pensando{display: none;}
+
+.moco_pensando_mob{
+  width: 30vw;
+  height: 20vh;
+  
+}
+.sorriso_crianca{display: none;}
+.sorriso_crianca_mob{
+  width: 30vw;
+  height: 20vh;
+  
+}
+
+.snoop{display: none;}
+.snoop_mob{
+  width: 30vw;
+  height: 20vh;
+}
+
+.ajeitando{
+  display: flex;
+  flex-wrap: wrap;
+  width: 180vw;
+  height: 90vh;
+  border: solid blue;
+  margin-left: 50%;
+  
+  
+}
 
 footer{display: none;}
 
@@ -778,5 +881,6 @@ footer{display: none;}
 .footer_navegacao{
   display: none;
 }
+
 
   }
